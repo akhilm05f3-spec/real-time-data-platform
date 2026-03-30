@@ -1,0 +1,7 @@
+{
+  "tenant_id": "string",
+  "machine_id": "string",
+  "temperature": "double",
+  "pressure": "double",
+  "timestamp": "timestamp"
+}
