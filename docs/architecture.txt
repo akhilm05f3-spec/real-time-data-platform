@@ -1,0 +1,20 @@
+[Kafka Producer]
+        ↓
+   [Kafka Topic]
+        ↓
+[Databricks Streaming Job]
+        ↓
+   [Bronze - ADLS]
+        ↓
+   [Silver - ADLS]
+        ↓
+   [Gold - ADLS]
+        ↓
+   [Analytics / BI
+
+
+
+
+
+ADF → triggers Databricks
+Log Analytics → monitors pipelines
